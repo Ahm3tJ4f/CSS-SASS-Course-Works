@@ -1,0 +1,8 @@
+@mixin heading-text-style ($font-size, $letter-spacing, $animation-name) {
+    display: block;
+    font-weight: 400;
+    font-size: $font-size;
+    letter-spacing: $letter-spacing;
+    animation-duration: 800ms;
+    animation-name: $animation-name;
+}

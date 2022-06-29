@@ -1,0 +1,39 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "components/button";
+
+@import "base/animations";
+@import "base/base";
+@import "base/utilities";
+@import "base/typography";
+
+
+@import "pages/home";
+
+
+@import "layout/header";
+
+
+%btn-placeholder {
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    display: inline-block;
+    border-radius: 9rem;
+    transition:all .1s;
+    position: relative;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
