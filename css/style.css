@@ -95,6 +95,14 @@ body {
   font-size: 2em;
 }
 
+.heading-secondary {
+  display: inline-block;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+}
+
 .btn:hover {
   transform: translateY(-0.5rem);
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
@@ -139,7 +147,6 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
-  margin-bottom: 8rem;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .header__logo-box {
@@ -158,10 +165,16 @@ body {
   text-align: center;
 }
 
+.section-about {
+  background-color: #f7f7f7;
+  padding: 25rem 0;
+  margin-top: -20vh;
+}
+
 .row {
   max-width: 1440px;
   margin: 0 auto;
-  background-color: #eee;
+  background-color: #f7f7f7;
   text-align: center;
 }
 .row:not(:last-child) {
