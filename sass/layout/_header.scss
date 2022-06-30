@@ -11,6 +11,7 @@
     background-size: cover;
     background-position: top;
     position: relative;
+    margin-bottom: $gutter-vertical;
 
     clip-path: polygon(0 0, 100% 0, 100% 85% , 0 100%);
 
