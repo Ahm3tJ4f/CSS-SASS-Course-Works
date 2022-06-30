@@ -21,3 +21,8 @@ body{
         @include heading-text-style(2rem, 1.5rem, moveInRight);
     }    
 }
+
+.row {
+    color: $color-white;
+    font-size: 2em;
+}

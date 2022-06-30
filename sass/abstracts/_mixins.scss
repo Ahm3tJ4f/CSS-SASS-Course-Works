@@ -6,3 +6,15 @@
     animation-duration: 800ms;
     animation-name: $animation-name;
 }
+
+// @mixin perform-gutter-horizontal {
+   
+// }
+
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear:both
+    }
+}
