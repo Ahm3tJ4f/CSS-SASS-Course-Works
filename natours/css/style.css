@@ -16,8 +16,8 @@
     opacity: 0;
     transform: translateX(8rem);
   }
-  80% {
-    transform: translateX(-1rem);
+  100% {
+    transform: translateX(0);
   }
 }
 @keyframes moveInBottom {
@@ -47,7 +47,7 @@ body {
   box-sizing: border-box;
 }
 
-.btn:visited, .btn:link {
+.btn:link, .btn:visited {
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
@@ -110,6 +110,7 @@ body {
   font-weight: 700;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
@@ -170,6 +171,13 @@ body {
   animation-fill-mode: backwards;
 }
 
+.btn-text:link, .btn-text:visited {
+  color: #55c57a;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 0.1rem solid #55c57a;
+  padding: 0.3rem;
+}
 .header {
   height: 92vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.7), rgba(40, 180, 133, 0.7)), url(../img/hero.jpg);
@@ -201,7 +209,7 @@ body {
 }
 
 .row {
-  max-width: 1440px;
+  max-width: 108rem;
   margin: 0 auto;
   background-color: #f7f7f7;
 }
