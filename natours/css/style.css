@@ -172,12 +172,25 @@ body {
 }
 
 .btn-text:link, .btn-text:visited {
+  font-size: 1.6rem;
   color: #55c57a;
   display: inline-block;
   text-decoration: none;
   border-bottom: 0.1rem solid #55c57a;
-  padding: 0.3rem;
+  padding: 0.2rem;
+  transition: all 200ms;
 }
+.btn-text:hover {
+  color: #fff;
+  background-color: #55c57a;
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.btn-text:active {
+  transform: translateY(0rem);
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.15);
+}
+
 .header {
   height: 92vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.7), rgba(40, 180, 133, 0.7)), url(../img/hero.jpg);
