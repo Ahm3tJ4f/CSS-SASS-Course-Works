@@ -191,6 +191,37 @@ body {
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.15);
 }
 
+.composition {
+  position: relative;
+}
+.composition__photo {
+  max-width: 50%;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.3rem;
+  position: absolute;
+  transition: all 0.2s;
+}
+.composition__photo--p1 {
+  top: 2rem;
+  left: 0;
+}
+.composition__photo--p2 {
+  top: 8rem;
+  right: 8rem;
+}
+.composition__photo--p3 {
+  top: 12rem;
+  left: 5rem;
+}
+.composition__photo:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4rem 4rem rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.composition:hover .composition__photo:not(:hover) {
+  transform: scale(0.8);
+}
+
 .header {
   height: 92vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.7), rgba(40, 180, 133, 0.7)), url(../img/hero.jpg);
