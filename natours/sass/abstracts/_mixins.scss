@@ -11,6 +11,24 @@
    
 // }
 
+@mixin background-image-style ($image-source) {
+    background-image:linear-gradient(
+        to right bottom, 
+        rgba($color-primary-light,0.7),
+        rgba($color-primary-dark, 0.7)
+        ),
+        url("#{$image-source}");
+    background-size: cover;
+    background-position: top;
+}
+
+@mixin background-gradient-style {
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 @mixin clearfix {
     &::after {
         content: "";
