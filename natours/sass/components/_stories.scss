@@ -26,10 +26,7 @@
         border-radius: 50%;
         height: 100%;
         transition: all , .8s;
-        backface-visibility: hidden;
         transform: translateX(-15%) scale(1.4);
-        
-
     }
 
     &__text {

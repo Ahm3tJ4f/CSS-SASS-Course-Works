@@ -18,7 +18,7 @@ $color-white:#fff;
 $color-black: #000;
 
 //Gray
-$color-gray-dark: rgb(94, 94, 94);
+$color-gray-dark: rgb(51,51,51);
 $color-gray: #e4e4e4;
 $color-gray-light: rgb(250, 250, 250);
 
@@ -32,6 +32,8 @@ $gutter-horizontal: 6rem;
 
 //shadow
 $box-shadow-1: 0 .5rem 2rem rgba($color-black,0.15);
+$box-shadow-2: 0 .5rem 2rem rgba($color-black,0.5);
+
 
 //size
 $border-radius-small: .4rem;
